@@ -1,0 +1,15 @@
+{
+  "name": "@algas/package-registry-example",
+  "version": "0.0.1",
+  "description": "github package registry example",
+  "main": "index.js",
+  "scripts": {
+    "main": "node index.js"
+  },
+  "repository": "git@github.com:algas/package-registry-example.git",
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com/"
+  },
+  "author": "Masahiro Yamauchi",
+  "license": "MIT"
+}
